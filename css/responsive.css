@@ -1,0 +1,56 @@
+/* Smartphone responsive styles */
+@media only screen and (max-width: 480px) {
+  /* Universal styles */
+  html {
+    font-size: 12px;
+  }
+
+  /* Header styles */
+  header h4 {
+    margin: 0 0 20% 0;
+  }
+
+  /* Main Content styles */
+  #info {
+    margin-bottom: 15%;
+    text-indent: 10%;
+  }
+
+  /* Further info sentence styles */
+  #further-info {
+    margin: 15% auto;
+  }
+
+  /* Footer styles */
+  footer {
+    padding-top: 5%;
+  }
+}
+
+/* Tablet responsive styles */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Universal styles */
+  html {
+    font-size: 14px;
+  }
+
+  /* Header styles */
+  header h4 {
+    margin: 0 0 8% 0;
+  }
+
+  /* Main Content styles */
+  #info {
+    margin-bottom: 8%;
+  }
+
+  /* Further info sentence styles */
+  #further-info {
+    margin: 8% auto;
+  }
+
+  /* Footer styles */
+  footer {
+    padding-top: 3%;
+  }
+}
