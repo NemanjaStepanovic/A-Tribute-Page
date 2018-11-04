@@ -1,58 +1,58 @@
 /* Smartphone responsive styles */
 @media only screen and (max-width: 480px) {
-  /* Universal styles */
-  html {
-    font-size: 10px;
-  }
+    /* Universal styles */
+    html {
+        font-size: 10px;
+    }
 
-  /* Headline styles */
-  header h1 {
-      font-size: 3.5rem;
-  }
-  
-  header h4 {
-    margin: 0 0 15% 0;
-  }
+    /* Headline styles */
+    header h1 {
+        font-size: 3.5rem;
+    }
 
-  /* Main content styles */
-  #firstInfoSentence {
-    text-indent: 10%;
-  }
-  
-  #lastInfoSentence {
-    margin-bottom: 15%;
-  }
+    header h4 {
+        margin: 0 0 15% 0;
+    }
 
-  #further-info {
-    margin: 15% auto;
-  }
+    /* Main content styles */
+    #firstInfoSentence {
+        text-indent: 10%;
+    }
 
-  /* Footer styles */
-  footer {
-    padding-top: 5%;
-  }
+    #lastInfoSentence {
+        margin-bottom: 15%;
+    }
+
+    #further-info {
+        margin: 15% auto;
+    }
+
+    /* Footer styles */
+    footer {
+        padding-top: 5%;
+    }
 }
 
 
 /* Tablet and laptop responsive styles */
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* Universal styles */
-  html {
-    font-size: 14px;
-  }
+    /* Universal styles */
+    html {
+        font-size: 14px;
+    }
 
-  /* Headline styles */
-  header h4 {
-    margin: 0 0 8% 0;
-  }
+    /* Headline styles */
+    header h4 {
+        margin: 0 0 8% 0;
+    }
 
-  /* Main content styles */
-  #further-info {
-    margin: 8% auto;
-  }
+    /* Main content styles */
+    #further-info {
+        margin: 8% auto;
+    }
 
-  /* Footer styles */
-  footer {
-    padding-top: 3%;
-  }
+    /* Footer styles */
+    footer {
+        padding-top: 3%;
+    }
 }
