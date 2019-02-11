@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
 /* Universal styles */
 body {
     padding: 0;
@@ -6,60 +8,57 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Wrapper class styles */
-.wrapper {
+#main {
     background-color: #e9e8e5;
-    margin: 2.5% 10%;
+    margin: 2.5vh 10vw;
     color:  #0e2f44;
     font-size: 1.1rem;
-    padding: 2%;
+    padding: 3vw;
 }
 
 /* Headline styles */
-header {
+#title {
     text-align: center;
-}
-
-header h1 {
-    font-family: Anton, sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 4.5rem;
     margin: 0;
-}
-
-header h4 {
-    font-style: italic;
-    margin: 0 0 5% 0;
-    font-size: smaller;
-    opacity: 0.5;
+    margin-bottom: 5vh;
 }
 
 /* Main content styles */
-img {
-    width: 100%;
+#img-div #image {
+    display: block;
+    max-width: 100%;
+    margin: auto;
     border-radius: 20px;
 }
 
-#firstInfoSentence {
-    text-align: justify;
-    margin-top: 0;
-    text-indent: 5%;
+#img-div #img-caption {
+    text-align: center;
+    opacity: 0.5;
+    font-style: italic;
+    font-size: smaller;
 }
 
-#lastInfoSentence {
-    margin-bottom: 5%;
+#tribute-info #firstInfoSentence {
+    text-indent: 5vw;
+}
+
+#tribute-info #lastInfoSentence {
+    margin-bottom: 5vh;
 }
 
 #further-info {
     text-align: center;
-    margin: 5% auto;
+    margin: 5vh auto;
 }
 
-a {
+#tribute-link, a {
     color: blue;
     text-decoration: none;
 }
 
-a:hover {
+#tribute-link:hover, a:hover {
     color: #0061ff;
 }
 

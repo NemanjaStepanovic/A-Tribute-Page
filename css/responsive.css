@@ -1,58 +1,49 @@
 /* Smartphone responsive styles */
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     /* Universal styles */
     html {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /* Headline styles */
-    header h1 {
+    #title {
         font-size: 3.5rem;
     }
 
-    header h4 {
-        margin: 0 0 15% 0;
-    }
-
     /* Main content styles */
-    #firstInfoSentence {
-        text-indent: 10%;
+    #tribute-info #firstInfoSentence {
+        text-indent: 10vw;
     }
 
-    #lastInfoSentence {
-        margin-bottom: 15%;
+    #tribute-info #lastInfoSentence {
+        margin-bottom: 10vh;
     }
 
     #further-info {
-        margin: 15% auto;
+        margin: 10vh auto;
     }
 
     /* Footer styles */
     footer {
-        padding-top: 5%;
+        padding-top: 5vh;
     }
 }
 
 
 /* Tablet and laptop responsive styles */
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1024px) {
     /* Universal styles */
     html {
-        font-size: 14px;
-    }
-
-    /* Headline styles */
-    header h4 {
-        margin: 0 0 8% 0;
+        font-size: 16px;
     }
 
     /* Main content styles */
     #further-info {
-        margin: 8% auto;
+        margin: 8vh auto;
     }
 
     /* Footer styles */
     footer {
-        padding-top: 3%;
+        padding-top: 3vh;
     }
 }
