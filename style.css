@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+/** Desktop styles **/
+/* Universal styles */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #dddddd;
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    background-color: #e9e8e5;
+    margin: 5vh 10vw;
+    color:  #0e2f44;
+    padding: 5vh 5vw;
+}
+
+/* Headline styles */
+#title {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 4.5rem;
+    margin: 0 0 2.5vh 0;
+}
+
+/* Main content styles */
+#img-div #image {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#img-div #img-caption {
+    text-align: center;
+    opacity: 0.5;
+    font-style: italic;
+    font-size: smaller;
+}
+
+#tribute-info {
+    text-align: justify;
+    margin-bottom: 5vh;
+}
+
+#further-info {
+    text-align: center;
+    margin: 5vh auto;
+}
+
+#tribute-link, a {
+    color: blue;
+    text-decoration: none;
+}
+
+#tribute-link:hover, a:hover {
+    color: #0061ff;
+}
+
+/* Footer styles */
+footer {
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+    border-top: 2px solid #0e2f44;
+    padding-top: 2.5vh;
+}
+
+
+/** Landscape smartphone styles | Low resolution tablet styles **/
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Universal styles */
+    html {
+        font-size: 14px;
+    }
+
+    /* Headline styles */
+    #title {
+        font-size: 3.75rem;
+    }
+}
+
+
+/** Portrait smartphone styles **/
+@media only screen and (max-width: 480px) {
+    /* Universal styles */
+    html {
+        font-size: 12px;
+    }
+
+    /* Headline styles */
+    #title {
+        font-size: 3rem;
+    }
+
+    /* Main content styles */
+    #tribute-info {
+        text-align: center;
+    }
+}
